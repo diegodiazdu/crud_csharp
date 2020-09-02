@@ -2,8 +2,6 @@ D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\bin\Debug\CRUD_Nota_Final.exe.co
 D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\bin\Debug\CRUD_Nota_Final.exe
 D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\bin\Debug\CRUD_Nota_Final.pdb
 D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.csprojAssemblyReference.cache
-D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.Form1.resources
-D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.Form2.resources
 D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.Properties.Resources.resources
 D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.csproj.GenerateResource.cache
 D:\Proyectos C#\CRUD_Nota_Final\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.csproj.CoreCompileInputs.cache

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Nota_Final", "CRUD_Nota_Final\CRUD_Nota_Final.csproj", "{139E12B2-12BB-4504-BF05-C3795C02C2BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD", "CRUD_Nota_Final\CRUD.csproj", "{139E12B2-12BB-4504-BF05-C3795C02C2BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

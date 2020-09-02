@@ -23,7 +23,7 @@ namespace CRUD_Nota_Final
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 index = new Form1();
+            Form3 index = new Form3();
             this.Hide();
             index.Show();
         }
@@ -93,13 +93,12 @@ namespace CRUD_Nota_Final
                 }
                 else
                 {
-                    DialogResult resul = MessageBox.Show("!PRECAUCIÓN ESTO PUEDE GENERAR UNA REACCION EN CADENA!" +
-                        "¿Seguro que desea eliminar el registro seleccionado?", "Eliminar registro", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    DialogResult resul = MessageBox.Show("¿Seguro que desea eliminar el registro seleccionado?", "Eliminar registro", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                     if (resul == DialogResult.Yes)
                     {
-                        //string delete = "delete from comunas where idComuna=@param1";
-                        string delete = "DELETE c, emp FROM comunas c LEFT JOIN empresas emp ON c.idComuna = emp.idComuna  WHERE c.idComuna=@param1;";
+                        string delete = "delete from comunas where idComuna=@param1";
+                        //string delete = "DELETE c, emp FROM comunas c LEFT JOIN empresas emp ON c.idComuna = emp.idComuna  WHERE c.idComuna=@param1;";
                         MySqlCommand opDelete = new MySqlCommand(delete, con);
                         opDelete.Parameters.AddWithValue("@param1", Convert.ToInt32(textBox1.Text));
                         opDelete.ExecuteNonQuery();

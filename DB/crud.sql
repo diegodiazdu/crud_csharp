@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 08-07-2020 a las 00:54:57
+-- Tiempo de generación: 02-09-2020 a las 14:47:07
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -40,42 +40,7 @@ CREATE TABLE IF NOT EXISTS `comunas` (
 INSERT INTO `comunas` (`idComuna`, `nomComuna`) VALUES
 (102, 'Curico'),
 (103, 'Putaendo'),
-(104, 'Teno'),
-(105, 'Licanten');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `empresas`
---
-
-CREATE TABLE IF NOT EXISTS `empresas` (
-  `idEmpresa` int(11) NOT NULL,
-  `nomEmpresa` varchar(100) NOT NULL,
-  `dirEmpresa` varchar(100) NOT NULL,
-  `idComuna` int(11) NOT NULL,
-  PRIMARY KEY (`idEmpresa`),
-  KEY `idComuna` (`idComuna`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `empresas`
---
-
-INSERT INTO `empresas` (`idEmpresa`, `nomEmpresa`, `dirEmpresa`, `idComuna`) VALUES
-(1, 'Zuko', 'Los pinos 134', 103),
-(2, 'Adidas', 'Los Coipos', 104),
-(3, 'Nike', 'Piedras Duras 123', 102);
-
---
--- Restricciones para tablas volcadas
---
-
---
--- Filtros para la tabla `empresas`
---
-ALTER TABLE `empresas`
-  ADD CONSTRAINT `empresas_ibfk_1` FOREIGN KEY (`idComuna`) REFERENCES `comunas` (`idComuna`) ON DELETE CASCADE ON UPDATE CASCADE;
+(104, 'Teno');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

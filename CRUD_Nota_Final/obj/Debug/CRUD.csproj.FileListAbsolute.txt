@@ -1,0 +1,12 @@
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\bin\Debug\CRUD_Nota_Final.exe.config
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\bin\Debug\CRUD_Nota_Final.exe
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\bin\Debug\CRUD_Nota_Final.pdb
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\bin\Debug\MySql.Data.dll
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\obj\Debug\CRUD.csprojAssemblyReference.cache
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.Form3.resources
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.Properties.Resources.resources
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\obj\Debug\CRUD.csproj.GenerateResource.cache
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\obj\Debug\CRUD.csproj.CopyComplete
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.exe
+C:\Users\Diego Diaz\Desktop\CRUD_C#\CRUD_Nota_Final\obj\Debug\CRUD_Nota_Final.pdb
